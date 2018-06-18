@@ -1,0 +1,1 @@
+java -cp distributed_peer.jar test.PerformanceTest $1

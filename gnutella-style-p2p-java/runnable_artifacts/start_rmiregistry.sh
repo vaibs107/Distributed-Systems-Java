@@ -1,0 +1,2 @@
+export CLASSPATH=distributed_peer.jar
+exec rmiregistry

@@ -1,0 +1,1 @@
+java -cp peer.jar peer.Peer

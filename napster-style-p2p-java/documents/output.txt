@@ -1,0 +1,207 @@
+admincss-MacBook-Pro-110:PA1 vivekbajpai$ ./run_peer.sh 
+File manager on the peer has started and ready for requests!!!
+The directory scanner has started. Lets wait for it to register all file in the shared directory.
+PeerId and Filenames registered with Indexing Server
+Please enter the name of the file to download or enter Q/q to exit: 
+testing.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named testing.txt downloaded successfully in the shared directory in 416.579065 msecs!!!
+
+
+Time taken for lookup = 180.584729 msecs.
+Time taken for download = 416.579065 msecs.
+Total time taken = 597.163794 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+MyGrades.pdf
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named MyGrades.pdf downloaded successfully in the shared directory in 509.244445 msecs!!!
+
+
+Time taken for lookup = 253.004448 msecs.
+Time taken for download = 509.244445 msecs.
+Total time taken = 762.248893 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+abc.txt
+No peer found for the file named abc.txt. Please try again!
+Please enter the name of the file to download or enter Q/q to exit: 
+
+testing.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+3
+Incorrect choice. Please try again.
+Enter the number of the peer you want to use for downloading:
+Please enter the name of the file to download or enter Q/q to exit: 
+
+Please enter the name of the file to download or enter Q/q to exit: 
+test1kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test1kb.txt downloaded successfully in the shared directory in 60.506093 msecs!!!
+
+
+Time taken for lookup = 223.725202 msecs.
+Time taken for download = 60.506093 msecs.
+Total time taken = 284.231295 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test2kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test2kb.txt downloaded successfully in the shared directory in 181.983477 msecs!!!
+
+
+Time taken for lookup = 61.038085 msecs.
+Time taken for download = 181.983477 msecs.
+Total time taken = 243.021562 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test5kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test5kb.txt downloaded successfully in the shared directory in 202.468014 msecs!!!
+
+
+Time taken for lookup = 43.774383 msecs.
+Time taken for download = 202.468014 msecs.
+Total time taken = 246.242397 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test10kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test10kb.txt downloaded successfully in the shared directory in 99.974422 msecs!!!
+
+
+Time taken for lookup = 175.585185 msecs.
+Time taken for download = 99.974422 msecs.
+Total time taken = 275.559607 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test85kb.PeerId and Filenames registered with Indexing Server
+^R 
+test85kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test85kb.txt downloaded successfully in the shared directory in 129.584183 msecs!!!
+
+
+Time taken for lookup = 20.567981 msecs.
+Time taken for download = 129.584183 msecs.
+Total time taken = 150.152164 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test85kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test85kb.txt downloaded successfully in the shared directory in 231.997655 msecs!!!
+
+
+Time taken for lookup = 62.877864 msecs.
+Time taken for download = 231.997655 msecs.
+Total time taken = 294.875519 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test 12PeerId and Filenames registered with Indexing Server
+^R
+test125kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test125kb.txt downloaded successfully in the shared directory in 151.944459 msecs!!!
+
+
+Time taken for lookup = 161.288024 msecs.
+Time taken for download = 151.944459 msecs.
+Total time taken = 313.232483 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+PeerId and Filenames registered with Indexing Server
+test250kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test250kb.txt downloaded successfully in the shared directory in 123.444428 msecs!!!
+
+
+Time taken for lookup = 135.500451 msecs.
+Time taken for download = 123.444428 msecs.
+Total time taken = 258.944879 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+PeerId and Filenames registered with Indexing Server
+test450kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test450kb.txt downloaded successfully in the shared directory in 372.748281 msecs!!!
+
+
+Time taken for lookup = 381.912056 msecs.
+Time taken for download = 372.748281 msecs.
+Total time taken = 754.660337 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+testPeerId and Filenames registered with Indexing Server
+^R
+test1000kb.txt        
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test1000kb.txt downloaded successfully in the shared directory in 450.457883 msecs!!!
+
+
+Time taken for lookup = 512.230078 msecs.
+Time taken for download = 450.457883 msecs.
+Total time taken = 962.6879610000001 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+PeerId and Filenames registered with Indexing Server
+test3000kb.txt
+The Index server returned following peers for this file. Please select one:
+1) 10.0.0.59
+2) 10.0.0.112
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 10.0.0.59.......
+File named test3000kb.txt downloaded successfully in the shared directory in 918.549721 msecs!!!
+
+
+Time taken for lookup = 150.470936 msecs.
+Time taken for download = 918.549721 msecs.
+Total time taken = 1069.020657 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+q
+Thank you for using our Peer to Peer file transfer system. Have a good day.

@@ -1,0 +1,1 @@
+java -cp index_server.jar p2p.IndexingServer

@@ -1,0 +1,510 @@
+********************************************************************************************
+Star Topology: 1 request at a time. Different file sizes.
+
+********************************************************************************************
+
+ec2-user@ip-172-31-27-127 ~]$ ./run_peer.sh 
+File manager on the peer has started and ready for requests!!!
+Please enter the name of the file to download or enter Q/q to exit: 
+test1kb.txt
+[172.31.27.127, 172.31.24.133, 172.31.23.13, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.27.127
+2) 172.31.24.133
+3) 172.31.23.13
+4) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+3
+File Downloading started from 172.31.23.13.......
+File named test1kb.txt downloaded successfully in the shared directory in 12.347512 msecs!!!
+
+
+Time taken for lookup = 57.633356 msecs.
+Time taken for download = 12.347512 msecs.
+Total time taken = 69.980868 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test2kb.txt
+[172.31.24.133, 172.31.23.13]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+2) 172.31.23.13
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.23.13.......
+File named test2kb.txt downloaded successfully in the shared directory in 3.633093 msecs!!!
+
+
+Time taken for lookup = 43.734934 msecs.
+Time taken for download = 3.633093 msecs.
+Total time taken = 47.368027000000005 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test3kb.txt
+[172.31.23.13, 172.31.24.151]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.23.13
+2) 172.31.24.151
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.24.151.......
+File named test3kb.txt downloaded successfully in the shared directory in 7.767092 msecs!!!
+
+
+Time taken for lookup = 49.19098 msecs.
+Time taken for download = 7.767092 msecs.
+Total time taken = 56.958072 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test4kb.txt
+[172.31.24.151, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.151
+2) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.18.152.......
+File named test4kb.txt downloaded successfully in the shared directory in 7.756566 msecs!!!
+
+
+Time taken for lookup = 42.79495 msecs.
+Time taken for download = 7.756566 msecs.
+Total time taken = 50.551516 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test5kb.txt
+[172.31.27.127, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.27.127
+2) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.18.152.......
+File named test5kb.txt downloaded successfully in the shared directory in 3.984512 msecs!!!
+
+
+Time taken for lookup = 47.30458 msecs.
+Time taken for download = 3.984512 msecs.
+Total time taken = 51.289092000000004 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test6kb.txt    
+[172.31.27.127, 172.31.24.133]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.27.127
+2) 172.31.24.133
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.24.133.......
+File named test6kb.txt downloaded successfully in the shared directory in 5.919064 msecs!!!
+
+
+Time taken for lookup = 44.635382 msecs.
+Time taken for download = 5.919064 msecs.
+Total time taken = 50.554446 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test7kb.txt
+[172.31.24.133, 172.31.23.13]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+2) 172.31.23.13
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.23.13.......
+File named test7kb.txt downloaded successfully in the shared directory in 8.805357 msecs!!!
+
+
+Time taken for lookup = 41.098102 msecs.
+Time taken for download = 8.805357 msecs.
+Total time taken = 49.903459 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test8kb.txt
+[172.31.23.13, 172.31.24.151]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.23.13
+2) 172.31.24.151
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.24.151.......
+File named test8kb.txt downloaded successfully in the shared directory in 6.016766 msecs!!!
+
+
+Time taken for lookup = 65.291133 msecs.
+Time taken for download = 6.016766 msecs.
+Total time taken = 71.307899 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+text9kb.txt
+[]
+No peer found for the file named text9kb.txt. Please try again!
+Please enter the name of the file to download or enter Q/q to exit: 
+test9kb.txt
+[172.31.24.151, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.151
+2) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 172.31.24.151.......
+File named test9kb.txt downloaded successfully in the shared directory in 5.015195 msecs!!!
+
+
+Time taken for lookup = 32.164792 msecs.
+Time taken for download = 5.015195 msecs.
+Total time taken = 37.179987 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+2
+[]
+No peer found for the file named 2. Please try again!
+Please enter the name of the file to download or enter Q/q to exit: 
+test9kb.txt
+[172.31.27.127, 172.31.24.151, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.27.127
+2) 172.31.24.151
+3) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+3
+File Downloading started from 172.31.18.152.......
+File named test9kb.txt downloaded successfully in the shared directory in 6.492477 msecs!!!
+
+
+Time taken for lookup = 29.965884 msecs.
+Time taken for download = 6.492477 msecs.
+Total time taken = 36.458361 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test10kb.txt
+[172.31.27.127, 172.31.24.133]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.27.127
+2) 172.31.24.133
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.24.133.......
+File named test10kb.txt downloaded successfully in the shared directory in 3.70606 msecs!!!
+
+
+Time taken for lookup = 29.633871 msecs.
+Time taken for download = 3.70606 msecs.
+Total time taken = 33.339931 msecs.
+Please enter the name of the file to download or enter Q/q to exit:
+
+
+
+
+********************************************************************************************
+Star Topology: 200 continuos requests. one requester working at a time.
+
+********************************************************************************************
+
+[ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 5641.421857 msecs
+[ec2-user@ip-172-31-27-127 ~]$
+
+
+********************************************************************************************
+Star Topology: 200 continuos requests. Two requester working at a time.
+
+********************************************************************************************
+
+[ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4820.398404 msecs
+[ec2-user@ip-172-31-27-127 ~]$ 
+
+[ec2-user@ip-172-31-23-13 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4933.195893 msecs
+[ec2-user@ip-172-31-23-13 ~]$
+
+
+********************************************************************************************
+Star Topology: 200 continuos requests. Three requester working at a time.
+
+********************************************************************************************
+[ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4380.052107 msecs
+[ec2-user@ip-172-31-27-127 ~]$ 
+
+[ec2-user@ip-172-31-23-13 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4657.135612 msecs
+[ec2-user@ip-172-31-23-13 ~]$
+
+[ec2-user@ip-172-31-24-151 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4820.818319 msecs
+[ec2-user@ip-172-31-24-151 ~]$ 
+
+
+
+********************************************************************************************
+Star Topology: 200 continuos requests. Four requester working at a time.
+
+****************************************************************************************
+[ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 3788.262666 mse
+
+[ec2-user@ip-172-31-23-13 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4276.259026 msecs
+[ec2-user@ip-172-31-23-13 ~]$ 
+
+[ec2-user@ip-172-31-24-151 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4766.37657 msecs
+[ec2-user@ip-172-31-24-151 ~]$ 
+
+[ec2-user@ip-172-31-18-152 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4459.078691 msecs
+[ec2-user@ip-172-31-18-152 ~]$ 
+
+
+
+
+
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+Linear Topology: 1 request at a time. Different file sizes.
+
+********************************************************************************************
+
+[ec2-user@ip-172-31-27-127 ~]$ ./run_peer.sh 
+File manager on the peer has started and ready for requests!!!
+Please enter the name of the file to download or enter Q/q to exit: 
+test1kb.txt
+[172.31.24.133, 172.31.23.13, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+2) 172.31.23.13
+3) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+3
+File Downloading started from 172.31.18.152.......
+File named test1kb.txt downloaded successfully in the shared directory in 23.743502 msecs!!!
+
+
+Time taken for lookup = 121.735799 msecs.
+Time taken for download = 23.743502 msecs.
+Total time taken = 145.479301 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test2kb.txt
+[172.31.24.133, 172.31.23.13]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+2) 172.31.23.13
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.23.13.......
+File named test2kb.txt downloaded successfully in the shared directory in 8.947662 msecs!!!
+
+
+Time taken for lookup = 26.972761 msecs.
+Time taken for download = 8.947662 msecs.
+Total time taken = 35.920423 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test3kb.txt
+[172.31.23.13, 172.31.24.151]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.23.13
+2) 172.31.24.151
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.24.151.......
+File named test3kb.txt downloaded successfully in the shared directory in 7.081185 msecs!!!
+
+
+Time taken for lookup = 50.432212 msecs.
+Time taken for download = 7.081185 msecs.
+Total time taken = 57.513397 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test4kb.txt
+[172.31.24.151, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.151
+2) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.18.152.......
+File named test4kb.txt downloaded successfully in the shared directory in 5.522161 msecs!!!
+
+
+Time taken for lookup = 42.465024 msecs.
+Time taken for download = 5.522161 msecs.
+Total time taken = 47.987185 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test5kb.txt
+[172.31.23.13, 172.31.24.151, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.23.13
+2) 172.31.24.151
+3) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+3
+File Downloading started from 172.31.18.152.......
+File named test5kb.txt downloaded successfully in the shared directory in 6.10311 msecs!!!
+
+
+Time taken for lookup = 38.329221 msecs.
+Time taken for download = 6.10311 msecs.
+Total time taken = 44.432331 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test6kb.txt
+[172.31.24.133]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 172.31.24.133.......
+File named test6kb.txt downloaded successfully in the shared directory in 5.855118 msecs!!!
+
+
+Time taken for lookup = 42.260061 msecs.
+Time taken for download = 5.855118 msecs.
+Total time taken = 48.115179 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test7kb.txt
+[172.31.24.133, 172.31.23.13]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+2) 172.31.23.13
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.23.13.......
+File named test7kb.txt downloaded successfully in the shared directory in 5.185429 msecs!!!
+
+
+Time taken for lookup = 42.737377 msecs.
+Time taken for download = 5.185429 msecs.
+Total time taken = 47.922806 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test8kb.txt
+[172.31.23.13, 172.31.24.151]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.23.13
+2) 172.31.24.151
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.24.151.......
+File named test8kb.txt downloaded successfully in the shared directory in 8.775503 msecs!!!
+
+
+Time taken for lookup = 45.689827 msecs.
+Time taken for download = 8.775503 msecs.
+Total time taken = 54.46533 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test9kb.txt
+[172.31.24.151, 172.31.18.152]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.151
+2) 172.31.18.152
+Enter the number of the peer you want to use for downloading: 
+2
+File Downloading started from 172.31.18.152.......
+File named test9kb.txt downloaded successfully in the shared directory in 5.864205 msecs!!!
+
+
+Time taken for lookup = 34.988568 msecs.
+Time taken for download = 5.864205 msecs.
+Total time taken = 40.852773 msecs.
+Please enter the name of the file to download or enter Q/q to exit: 
+test10kb.txt
+[172.31.24.133]
+The Index server returned following peers for this file. Please select one:
+1) 172.31.24.133
+Enter the number of the peer you want to use for downloading: 
+1
+File Downloading started from 172.31.24.133.......
+File named test10kb.txt downloaded successfully in the shared directory in 3.622103 msecs!!!
+
+
+Time taken for lookup = 31.132333 msecs.
+Time taken for download = 3.622103 msecs.
+Total time taken = 34.754436 msecs.
+Please enter the name of the file to download or enter Q/q to exit:
+
+
+
+
+********************************************************************************************
+Linear Topology: 200 continuos requests. one requester working at a time. (file on extreme peer)
+
+********************************************************************************************
+ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 5296.869349 msecs
+
+
+
+********************************************************************************************
+Linear Topology: 200 continuos requests. Two requester working at a time. (file on extreme peer)
+
+********************************************************************************************
+ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4195.75669 msecs
+
+[ec2-user@ip-172-31-24-133 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4280.958038 msecs
+
+
+
+********************************************************************************************
+Linear Topology: 200 continuos requests. Three requester working at a time. (file on extreme peer)
+
+********************************************************************************************
+ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4872.348112 msecs
+
+[ec2-user@ip-172-31-24-133 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 5110.212329 msecs
+
+[ec2-user@ip-172-31-23-13 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4337.212387 msecs
+
+
+********************************************************************************************
+Linear Topology: 200 continuos requests. Four requester working at a time. (file on extreme peer)
+
+********************************************************************************************
+ec2-user@ip-172-31-27-127 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4986.243176 msecs
+
+[ec2-user@ip-172-31-24-133 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 5011.973432 msecs
+
+[ec2-user@ip-172-31-23-13 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4462.763902 msecs
+
+[ec2-user@ip-172-31-24-151 ~]$ ./run_peer_performance_test.sh test5kb.txt
+File manager on the peer has started and ready for requests!!!
+Sending 200 requests another peers. Let the fun begin!!!: 
+Total time taken for 200 requests= 4021.882176 msecs
